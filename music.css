@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.banner{
+    padding:38%;
+    background-image:url(./skeleton.jpeg);
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-size: contain;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.para{
+    text-align: center;
+    padding-bottom: 110px;
+}
+.button{
+    position: absolute;
+    top:200%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid black;
+    padding: 10px 60px;
+    color:white;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: purple;
+    border-style: 5px outset;
+}
+.p1{
+    text-align: center;
+    top:210%;
+    left:50%;
+}
